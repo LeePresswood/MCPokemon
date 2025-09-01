@@ -12,6 +12,51 @@ This is an experimental Model Context Protocol (MCP) server project designed to 
 - .gitignore (Node.js style, suggesting future Node.js/TypeScript implementation)
 - package-lock.json (empty, no dependencies - suggests npm was initialized but no packages installed)
 
+## Maintaining These Instructions
+
+**CRITICAL**: These instructions must be updated as the project evolves through development phases. The current instructions reflect the design/concept phase state and will become outdated when implementation begins.
+
+### When to Update These Instructions
+
+**Immediately update when:**
+- First source code is added to the repository
+- Dependencies are added (package.json created, npm packages installed)
+- Build system is implemented (scripts, compilation, bundling)
+- Test framework is added
+- CI/CD workflows are created
+- MCP server implementation begins
+
+### Required Updates by Development Phase
+
+**Phase 1 - Initial Implementation:**
+- Remove all references to "design phase only" and "no runnable code"
+- Update "Current Project State" section with actual project structure
+- Add real build, test, and development commands
+- Update "Current Limitations" and "Commands That Appropriately Fail" sections
+- Add actual dependency information and project setup instructions
+
+**Phase 2 - MCP Server Development:**
+- Add MCP-specific development workflows and debugging guidance
+- Include emulator integration setup instructions
+- Add game state recognition validation procedures
+- Update architecture sections with actual implementation details
+
+**Phase 3 - Game Integration:**
+- Add Pokémon Red emulator setup and configuration guidance
+- Include image processing and state extraction validation
+- Add gameplay loop testing and debugging procedures
+- Update knowledge base integration instructions
+
+### Sections Requiring Regular Updates
+- **Current Project State**: Must reflect actual repository contents and capabilities
+- **Current Limitations**: Remove limitations as they're resolved through implementation
+- **Validated Commands**: Add new working commands, remove placeholder failures
+- **Commands That Appropriately Fail**: Update as functionality is implemented
+- **Development Guidelines**: Evolve from "future implementation" to actual practices
+
+### Responsibility for Updates
+When making significant changes to the project structure or adding new functionality, **always update these instructions** as part of the same PR. These instructions are living documentation that should accurately reflect the current state and capabilities of the project.
+
 ## Working Effectively
 
 ### Understanding the Project
