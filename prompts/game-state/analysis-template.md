@@ -1,1 +1,0 @@
-Before executing a planned sequence of moves, the LLM performs a game state analysis to determine the current position in the overworld or in the game's menus. This involves identifying the player's current city location, number of badges, party composition in terms of Pokemon species, types, levels, and movesets, and upcoming short and long-term goals.

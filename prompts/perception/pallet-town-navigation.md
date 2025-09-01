@@ -1,2 +1,0 @@
-**Perception**:  
-I can see the Player's House at the top of the map and Professor Oak's Lab at the southeast corner of Pallet Town. The map positions the houses at the top and the lab at the bottom-right.
