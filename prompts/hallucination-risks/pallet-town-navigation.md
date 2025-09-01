@@ -1,0 +1,2 @@
+**Hallucination Risks**:  
+I assume that the lab is directly southeast of the Player's House and that no obstacles block the path. If this assumption is incorrect, I may need to adjust my plan after observing the updated game state.
